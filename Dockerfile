@@ -6,7 +6,7 @@ COPY . .
 
 RUN apk add --no-cache bash
 
-#RUN ./sbt test dist
+RUN ./sbt test dist
 
 RUN unzip target/universal/hello-world-1.0-SNAPSHOT.zip
 

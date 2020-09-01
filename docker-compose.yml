@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  visits-service:
+    build: .
+    ports:
+      - "9000:9000"
+    volumes:
+      - .:/code
+      - $HOME/.ivy2:/root/.ivy2
+      - $HOME/.sbt:/root/.sbt

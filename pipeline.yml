@@ -4,7 +4,7 @@ resources:
     type: git
     source:
       branch: master
-      uri: https://github.com/sayedarshd/hello-world.git
+      uri: git@github.com:arshadalis/hello-world.git
 
 jobs:
   - name: build-hello-world

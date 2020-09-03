@@ -1,0 +1,15 @@
+---
+resources:
+  - name: hello-world-src
+    type: git
+    source:
+      branch: master
+      uri: https://github.com/sayedarshd/hello-world.git
+
+jobs:
+  - name: build-hello-world
+    plan:
+      - get: hello-world-src
+        trigger: true
+      - task: build
+        file: hello-world-src/build.yml

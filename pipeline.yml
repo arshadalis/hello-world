@@ -26,7 +26,7 @@ jobs:
           outputs:
             - name: artifact
           run:
-            path: hello-world-src/sbt-dist/bin/sbt.sh
+            path: hello-world-src/sbt-dist/bin/sbt.bash
             args:
               - test
               - dist

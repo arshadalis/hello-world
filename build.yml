@@ -12,7 +12,7 @@ outputs:
   - name: artifact
 
 run:
-  path: ./hello-world-src/sbt
+  path: ./hello-world-src/sbt-dist/bin/sbt
   args:
     - test
     - dist

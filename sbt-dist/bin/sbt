@@ -5,6 +5,8 @@
 ###  Helper methods for BASH scripts ###
 ###  ------------------------------- ###
 
+apt install bc
+
 realpath () {
 (
   TARGET_FILE="$1"

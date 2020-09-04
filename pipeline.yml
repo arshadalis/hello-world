@@ -25,7 +25,7 @@ jobs:
             - name: hello-world-src
 
           run:
-            path: hello-world-src/sbt-dist/bin/sbt
+            path: hello-world-src/sbt
             args:
               - test
               - distZip

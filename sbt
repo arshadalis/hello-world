@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-./sbt-dist/bin/sbt "$@"
+hello-world-src/sbt-dist/bin/sbt "$@"

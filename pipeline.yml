@@ -19,14 +19,12 @@ jobs:
           image_resource:
             type: docker-image
             source:
-              repository: adoptopenjdk/openjdk11
-              tag: jre11u-ubuntu-nightly
+              repository: hseeberger/scala-sbt
+              tag: 8u141-jdk_2.12.3_1.0.2
           inputs:
             - name: hello-world-src
-          outputs:
-            - name: artifact
+
           run:
             path: hello-world-src/sbt-dist/bin/sbt
             args:
               - test
-              - dist

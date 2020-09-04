@@ -12,4 +12,4 @@ outputs:
   - name: build
 
 run:
-  path: ./hello-world-src/sbt-dist/bin/sbt test dist
+  path: hello-world-src/sbt test dist

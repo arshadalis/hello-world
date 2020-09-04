@@ -20,13 +20,13 @@ jobs:
             type: docker-image
             source:
               repository: adoptopenjdk/openjdk14
-              tag: jre14u-alpine-nightly
+              tag: jre-14.0.2_12-ubuntu
           inputs:
             - name: hello-world-src
           outputs:
             - name: artifact
           run:
-            path: hello-world-src/sbt-dist/bin/sbt.bash
+            path: hello-world-src/sbt
             args:
               - test
               - dist

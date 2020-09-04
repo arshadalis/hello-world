@@ -4,7 +4,9 @@ resources:
     type: git
     source:
       branch: master
-      uri: git@github.com:arshadalis/hello-world.git
+      uri: https://github.com/arshadalis/hello-world.git
+      username: arshadalis
+      password: ((password))
 
 jobs:
   - name: build-hello-world

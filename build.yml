@@ -9,10 +9,10 @@ inputs:
   - name: hello-world-src
 
 outputs:
-  - name: build
+  - name: artifact
 
 run:
-  path: hello-world-src/sbt.sh
+  path: ./hello-world-src/sbt
   args:
     - test
     - dist

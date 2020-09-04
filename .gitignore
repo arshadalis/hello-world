@@ -9,3 +9,4 @@ target
 .history
 .DS_Store
 .metals
+/credentials.yml

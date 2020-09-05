@@ -26,6 +26,3 @@ jobs:
 
           run:
             path: hello-world-src/sbt
-            args:
-              - test
-              - distZip
